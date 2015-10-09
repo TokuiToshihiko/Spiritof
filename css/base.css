@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* Base setting */
+* {
+	font-size: 100%;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	overflow-y: scroll;
+}
+* html {
+	filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+body {
+	text-align: center;
+	line-height: 1.4;
+}
+a:hover img {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+a:hover img.nofilter,
+a:hover img.imgover {
+	opacity: 1;
+	filter: none;
+}
+a {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+button {
+	cursor: pointer;
+}
+object {
+	vertical-align: bottom;
+}
+img {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+input {
+	padding-top: 2px;
+}
+ul,
+ol {
+	list-style-type: none;
+}
+li img {
+	vertical-align: bottom;
+}
+strong {
+	font-weight: bold !important;
+}
+em {
+	font-style: italic !important;
+}
+ins {
+	text-decoration: underline !important;
+}
+del {
+	text-decoration: line-through !important;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+/*基本フォント*/
+body,
+table {
+	font-size: 12px;
+	font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+	color: #333;
+}
+
+/*ie7*/
+*:first-child+html body {
+	font-size:75%;
+}
+/*ie5-6*/
+* html body {
+	font-size:75%;
+}
