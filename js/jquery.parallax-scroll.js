@@ -24,7 +24,7 @@
         },
         $win = $(window),
         lastTickTime = 0;
-    
+
     window.requestAnimationFrame = function (callback) {
       var currTime = new Date().getTime();
       var timeToCall = Math.max(0, 5 - (currTime - lastTickTime));
