@@ -11,7 +11,7 @@
 $(document).ready(function(){
 	// Cache the Window object
 	$window = $(window);
-                
+
    $('div[data-type="background"]').each(function(){
      var $bgobj = $(this); // assigning the object
                     
