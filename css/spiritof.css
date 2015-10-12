@@ -54,18 +54,18 @@ video{
   width: 100%;
 }
 
-.bg-holder {
-/*  position: relative;*/
-  min-width: 1000px;
-  /*height: 100%;*/
-  height: 600px;
-  background-size: cover;
-  /*background-position: 50% 50%;*/
-  background-position: center;
-  /*background-attachment: fixed;*/
-  color: #fff;
+.btn-down{
+  cursor: pointer;
 }
 
+.parallax{
+  background: url(../img/parallax02.jpg) 50% 0 no-repeat fixed;
+  height: 600px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+}
 
 @media (min-width: 641px) {
 .pic1 {

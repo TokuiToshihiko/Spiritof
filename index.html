@@ -12,11 +12,12 @@
 <link rel="stylesheet" href="./css/spiritof-sp.css" media="screen and (min-width: 640px)">
 <link rel="stylesheet" href="./css/base.css" media="all">
 
-<script src="./js/jquery-2.1.4.js"></script>
+<!--<script src="./js/jquery-2.1.4.js"></script>-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="./js/script.js"></script>
 <script src="./js/responsive.js"></script>
 <script src="./js/jquery.parallax-scroll.js"></script>
-<script src="./js/demo.js"></script>
+<script src="./js/parallax.js"></script>
 
 <!--[if lt IE 9]>
 <script src="./js/html5shiv.js"></script>
@@ -46,12 +47,12 @@ $(function() {
 
   <article class="my-guild">
     <h1><img src="./img/spiritof.png" alt="Spirit of"></h1>
-    <a href="#" class="down">↓</a>
+    <img src="./img/btn-down.png" class="btn-down">
   </article>
 
   </div>
 
-  <div id="" class="contents">
+  <div id="main" class="contents">
 
   <section class="about wrap">
     <h2>What's 「Spirit of」</h2>
@@ -59,7 +60,7 @@ $(function() {
     <p>平地戦をメインにしており、平地戦好きな人なら誰でも参加歓迎！</p>
   </section>
 
-  <div class="bg-holder pic1" data-width="1900" data-height="600"></div>
+  <div class="parallax" data-type="background" data-speed="10"></div>
 
   <section class="camp wrap">
     <h2>Base Camp</h2>
